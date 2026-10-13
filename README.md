@@ -42,9 +42,8 @@ period to check for regime dependence.
 | Sharpe Ratio | -0.60  | 0.07       |
 | Max Drawdown | 0.05   | 0.02       |
 
-<!-- Add after re-running the notebook and saving the equity curve:
-![Equity Curve](equity_curve_kalman.png)
--->
+
+*![Equity Curve](equity_curve_kalman.png)*
 
 The dynamic hedge ratio did not improve on the static version: it was worse on every
 metric above. The filtered beta drifts from roughly 1.007 to 0.983 as JCPB pulls ahead
